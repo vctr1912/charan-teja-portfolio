@@ -1,4 +1,4 @@
-import { GithubLogoIcon, LinkIcon, ArrowLeftIcon, CaretLeft, CaretRight, CaretRightIcon, CaretLeftIcon } from '@phosphor-icons/react';
+import { GithubLogoIcon, LinkIcon, ArrowLeftIcon, CaretRightIcon, CaretLeftIcon } from '@phosphor-icons/react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useState } from 'react';
 import { projects, type Project } from '../data/projects';
