@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cabinet: "CabinetGrotesk", sans-serif;
+  --color-prime: #e6e0da; 
+  --color-sec: #fbfbfa;
+  --color-coal: #383838;
+  --color-tlight: #70685e;
+  --color-tmedium: #57504a;
+  --color-tdark: #46403d;
+}
+
+/* 100 - Thin */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 200 - ExtraLight */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 300 - Light */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 400 - Regular */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 500 - Medium */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 600 - SemiBold */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 700 - Bold */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 800 - ExtraBold */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 900 - Black */
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('/src/assets/fonts/CabinetGrotesk-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Hide scrollbar globally */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  -ms-overflow-style: none;    /* IE + Edge */
+  scrollbar-width: none;       /* Firefox */
+}
+
